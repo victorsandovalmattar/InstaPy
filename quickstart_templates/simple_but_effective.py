@@ -8,8 +8,8 @@ What does this quickstart script aim to do?
 from instapy import InstaPy
 from instapy.util import smart_run
 
-insta_username = ''
-insta_password = ''
+insta_username = 'umcasalpelobrasil'
+insta_password = 'Vsm2029@'
 
 # get a session!
 session = InstaPy(username=insta_username,

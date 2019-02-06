@@ -11,7 +11,7 @@ from instapy import InstaPy
 from instapy.util import smart_run
 
 # get a session!
-session = InstaPy(username='', password='')
+session = InstaPy(username='umcasalpelobrasil', password='Vsm2029@')
 
 # let's go! :>
 with smart_run(session):
@@ -37,4 +37,4 @@ with smart_run(session):
     # amount=8000, randomize=False, interact=True)
     # session.unfollow_users(amount=7500, nonFollowers=True, style="RANDOM",
     # unfollow_after=42*60*60, sleep_delay=3)
-    session.like_by_tags(['???'], amount=8000)
+    session.like_by_tags(['brasil'], amount=8000)
